@@ -1,0 +1,29 @@
+.articleLink {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 12px;
+    padding: 5px 10px;
+}
+
+.articleLink:hover {
+    background-color: aquamarine;
+}
+
+.activeArticle {
+    background-color: aquamarine;
+}
+
+.homeHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.articleContainer {
+    background: aliceblue;
+    border-radius: 12px;
+    height: 100vh;
+}

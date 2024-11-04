@@ -1,0 +1,20 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navBar a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 12px;
+    color: black;
+}
+
+.navBar a:hover {
+    background-color: aquamarine;
+}
+
+.activeNavLink {
+    background-color: aquamarine;
+}
